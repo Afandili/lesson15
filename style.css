@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+}
+
+.moving-box {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    animation-name: MoveandChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.moving-box-ease {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    animation-name: MoveandChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.moving-box-ease-in {
+   margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    animation-name: MoveandChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; 
+}
+
+.moving-box-ease-out {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    animation-name: MoveandChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.moving-box-linear {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    animation-name: MoveandChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes MoveandChange {
+    0% {
+        transform: translateX(0);
+        background-color: orange;
+    }
+
+    50% {
+        transform: translateX(100px);
+        background-color: red;
+    }
+
+    100% {
+        transform: translateX(0);
+        background-color: orange;
+    }
+}
+
