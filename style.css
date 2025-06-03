@@ -23,7 +23,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 4px 8px black;
     animation-name: MoveandChange;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
